@@ -8,6 +8,3 @@ It includes:
 - Model training and evaluation
 - Predictions on new images
 - Interactive Streamlit demo for real-time detection
-
-Built with Python, Ultralytics YOLOv8, Roboflow, and Streamlit. 
-Perfect for portfolio showcasing computer vision and deep learning skills.
