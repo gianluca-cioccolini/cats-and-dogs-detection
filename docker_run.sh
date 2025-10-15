@@ -1,0 +1,2 @@
+docker build -t cats-and-dogs-detection .
+docker run -it -v $PWD:/workspace --gpus all -p 8501:8501 -v /tmp/.X11-unix:/tmp/.X11-unix:rw -e DISPLAY=unix$DISPLAY --device /dev/dri --privileged -v /home/$USER/.Xauthority:/root/.Xauthority cats-and-dogs-detection 
